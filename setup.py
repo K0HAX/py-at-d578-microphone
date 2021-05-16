@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
         name='d578uv-k0hax',
-        version='0.1.20210516.1',
+        version='0.1.20210516.2',
         author='Michael Englehorn',
         author_email='michael+pypi@englehorn.com',
         description='Python library to simulate a AnyTone AT-D578UV-III hand mic',

@@ -6,7 +6,10 @@ class d578uv:
     start_tx = [ 0x41, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x06 ]
     stop_tx = [ 0x41, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x06 ]
 
-    ser = serial.Serial('/dev/ttyUSB0', 115200)
+    ser = None
+
+    def __init__(self, serial_port='/dev/ttyUSB0'):
+        self.ser = serial.Serial(serial_port, 115200)
 
     def _do_Tx(self):
         confirmation_byte = None

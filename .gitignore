@@ -1,2 +1,6 @@
 **/__pycache__
 **/venv
+build/*
+dist/*
+src/d578uv_k0hax.egg-info/*
+

@@ -1,4 +1,4 @@
-# py-d578uv
+# k0hax-d578uv
 
 This is a python library designed to interface to an AnyTone™ AT-D578UV radio's Microphone port serial connection.
 
@@ -27,7 +27,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ## Examples
 ### Control PTT
 ```
-import d578uv
+from d578uv import d578uv
 radio = d578uv.d578uv('/dev/ttyUSB0')
 
 # Transmit for 5 seconds
